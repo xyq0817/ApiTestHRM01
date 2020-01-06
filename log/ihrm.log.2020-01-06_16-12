@@ -1,0 +1,7 @@
+2020-01-06 16:12:01,270 INFO [root] [__init__.py(<module>:5)] - 正常工作
+2020-01-06 16:12:01,605 INFO [root] [login.py(test_login:27)] - 登陆成功返回的数据为{'success': True, 'data': '4500073c-090b-4772-9820-12cd7c53c6d3', 'message': '操作成功！', 'code': 10000}
+2020-01-06 16:12:01,605 INFO [root] [login.py(test_login:31)] - 令牌{'Content-type': 'application/json', 'Authorization': 'Bearer 4500073c-090b-4772-9820-12cd7c53c6d3'}
+2020-01-06 16:12:01,692 INFO [root] [test_emp.py(test01_add_emp:29)] - 添加员工返回数据为{'success': True, 'data': {'id': '1214097278658498560'}, 'message': '操作成功！', 'code': 10000}
+2020-01-06 16:12:01,770 INFO [root] [test_emp.py(test02_query_emp:36)] - 查询员工返回的数据{'success': True, 'data': {'formOfEmployment': 1, 'staffPhoto': None, 'password': 'd9785be76267e073da34c9079ba43c80', 'id': '1214097278658498560', 'workNumber': '112', 'enableState': 1, 'departmentId': '1210411411066695680', 'mobile': '18574658902', 'workingCity': None, 'formOfManagement': None, 'roleIds': [], 'createTime': None, 'companyName': '传智播客', 'inServiceStatus': None, 'departmentName': '测试', 'companyId': '1', 'timeOfEntry': '2020-01-01T00:00:00.000+0000', 'username': 'pen哈哈哈uw', 'correctionTime': '2020-01-07T16:00:00.000+0000'}, 'message': '操作成功！', 'code': 10000}
+2020-01-06 16:12:01,849 INFO [root] [test_emp.py(test03_modify_emp:43)] - 修改员工返回的数据{'success': True, 'data': {'id': '1214097278658498560'}, 'message': '操作成功！', 'code': 10000}
+2020-01-06 16:12:01,929 INFO [root] [test_emp.py(test04_delete_emp:57)] - 删除员工返回的数据{'success': True, 'data': None, 'message': '操作成功！', 'code': 10000}
